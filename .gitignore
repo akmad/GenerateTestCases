@@ -3,7 +3,7 @@
 
 # Package File
 *.jar
-!lib/*
+lib/*
 *.war
 *.ear
 
@@ -23,9 +23,12 @@
 .idea/workspace.xml
 .idea/misc.xml
 .idea/libraries
-.idea/dataSources.*
+.idea/*datasources.*
+.idea/*dataSources.*
 .idea/encodings.xml
 .idea/dictionaries/*
+.idea/modules.xml
+.idea/vcs.xml
 
 # building
 target
@@ -39,6 +42,7 @@ build.log
 .externalToolBuilders
 # release.properties
 pom.xml.releaseBackup
+out/*
 
 ## generic files to ignore
 *~
