@@ -3,8 +3,8 @@
 
 # Package File
 *.jar
-lib/*
 *.war
+!lib/*
 *.ear
 
 # eclipse conf file
